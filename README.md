@@ -2,7 +2,9 @@
 It recognises facial expression using HAAR cascade. 
 
 To run this project directly open capture.py and run it.
-python capture.py
+```shell
+python3 capture.py
+```
 
 Upon opening of camera press "Space" 10 times as it will take 10 photos of you to detect your expression.
 
@@ -12,4 +14,4 @@ As the dataset increases the accuracy also increases. If you want to keep your i
 This project uses haarcascade to classify different expressions and Fisher face algorithm to detect the face.
 
 To train your own model run:
-python hard_update.py
+```python hard_update.py```
